@@ -24,7 +24,7 @@
 </div>
 <!-- Toast -->
 <div class="toast-container position-fixed bottom-0 end-0 p-3">
-  <div id="toast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+  <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
     <div class="toast-header">
       <img src="..." class="rounded me-2" alt="...">
       <strong class="me-auto">Modal Closed</strong>
@@ -36,3 +36,14 @@
     </div>
   </div>
 </div>
+<script>
+  const toastTrigger = document.getElementById('toast')
+  const toastLiveExample = document.getElementById('liveToast')
+  if (toastTrigger) {
+    toastTrigger.addEventListener('click', () => {
+      const toast = new bootstrap.Toast(toastLiveExample)
+    
+      toast.show()
+    })
+  }
+</script>
