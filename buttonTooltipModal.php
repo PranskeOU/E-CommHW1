@@ -2,9 +2,11 @@
 <button type="button" class="btn btn-secondary"
         data-bs-toggle="tooltip" data-bs-placement="top"
         data-bs-custom-class="custom-tooltip"
-        data-bs-title="This is the Tooltip">
+        data-bs-title="This is the Tooltip"
+        style=".custom-tooltip {--bs-tooltip-bg: var(--bs-primary);}">
   Hover to Show Tooltip
 </button>
+<br />
 <br />
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
   Click to show Modal
