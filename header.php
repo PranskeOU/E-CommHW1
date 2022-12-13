@@ -53,7 +53,7 @@
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="accordian.php">Component 3: Accordian</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="buttonTooltipModal.php">Components 4, 5, & 6: Button, Tooltip, & Modal</a></li>
+            <li><a class="dropdown-item" href="buttonToastModal.php">Components 4, 5, & 6: Button, Toast, & Modal</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="alerts.php">Component 7: Alerts</a></li>
             <li><hr class="dropdown-divider"></li>
