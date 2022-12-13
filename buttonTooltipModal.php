@@ -1,10 +1,6 @@
 <?php require_once("header.php");?>
-<button type="button" class="btn btn-secondary"
-        data-bs-toggle="tooltip, modal" data-bs-placement="top"
-        data-bs-custom-class="custom-tooltip"
-        data-bs-title="This is the Tooltip. This button is going to open the Modal"
-        data-bs-target="#examplemodal">
-  Open Modal
+<button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+ <span data-toggle="modal" data-target="#examplemodal">Tooltip & Modal</span>
 </button>
 <!--Modal-->
 <div class="modal" tabindex="-1" id="examplemodal">
