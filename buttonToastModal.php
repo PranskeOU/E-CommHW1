@@ -26,7 +26,7 @@
 <div class="toast-container position-fixed bottom-0 end-0 p-3">
   <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
     <div class="toast-header">
-      <img width="20" height="15" src="https://tractive.com/blog/wp-content/uploads/2016/04/puppy-care-guide-for-new-parents.jpg" class="rounded me-2" alt="puppy">
+      <img width="40" height="30" src="https://tractive.com/blog/wp-content/uploads/2016/04/puppy-care-guide-for-new-parents.jpg" class="rounded me-2" alt="puppy">
       <strong class="me-auto">T O A S T</strong>
       <small>0 mins ago</small>
       <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
