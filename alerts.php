@@ -1,9 +1,25 @@
-<html>
-  <h1>Nick's Badges <span class="badge bg-secondary">New</span></h1>
-  <h2>Nick's Badges <span class="badge bg-secondary">New</span></h2>
-  <h3>Nick's Badges <span class="badge bg-secondary">New</span></h3>
-  <h4>Nick's Badges <span class="badge bg-secondary">New</span></h4>
-  <h5>Nick's Badges <span class="badge bg-secondary">New</span></h5>
-  <h6>Nick's Badges <span class="badge bg-secondary">New</span></h6>
-  <a class="btn btn-primary" href="index.html" role="button">Home</a>
-</html>
+<?php require_once("header.php");?>
+<div class="alert alert-primary" role="alert">
+  A simple primary alert—check it out!
+</div>
+<div class="alert alert-secondary" role="alert">
+  A simple secondary alert—check it out!
+</div>
+<div class="alert alert-success" role="alert">
+  A simple success alert—check it out!
+</div>
+<div class="alert alert-danger" role="alert">
+  A simple danger alert—check it out!
+</div>
+<div class="alert alert-warning" role="alert">
+  A simple warning alert—check it out!
+</div>
+<div class="alert alert-info" role="alert">
+  A simple info alert—check it out!
+</div>
+<div class="alert alert-light" role="alert">
+  A simple light alert—check it out!
+</div>
+<div class="alert alert-dark" role="alert">
+  A simple dark alert—check it out!
+</div>

@@ -48,12 +48,12 @@
 -->
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            This is a Dropdown, the second component
+            This is a Dropdown, the 2nd component
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="accordian.php">Component 3: Accordian</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="buttonPopoverModal.php">Components 4, 5, & 6: Button, Popover, & Modal</a></li>
+            <li><a class="dropdown-item" href="buttonTooltipModal.php">Components 4, 5, & 6: Button, Tooltip, & Modal</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="alerts.php">Component 7: Alerts</a></li>
             <li><hr class="dropdown-divider"></li>
