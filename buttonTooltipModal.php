@@ -1,6 +1,6 @@
 <?php require_once("header.php");?>
-<button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
- <span data-toggle="modal" data-target="#examplemodal">Tooltip & Modal</span>
+<button style="padding: 0px;" type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="This is the tooltip">
+ <span style="padding: 0px;" data-toggle="modal" data-target="#examplemodal">Tooltip & Modal</span>
 </button>
 <!--Modal-->
 <div class="modal" tabindex="-1" id="examplemodal">
