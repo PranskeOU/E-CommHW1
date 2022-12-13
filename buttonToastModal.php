@@ -12,9 +12,10 @@
       </div>
       <div class="modal-body">
         <p>Modal body text goes here.</p>
+        <button type="button" class="btn btn-primary" id="toast">Show Toast</button>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" id="toast" data-bs-dismiss="modal">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
             Close
         </button>
       </div>
