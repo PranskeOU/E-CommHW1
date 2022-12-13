@@ -1,9 +1,4 @@
 <?php require_once("header.php");?>
-<button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="This is the Tooltip">
-  Hover to show Tooltip
-</button>
-<br />
-<br />
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
   Click to show Modal
 </button>
@@ -20,6 +15,9 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Clicking this closes the modal">
+            Hover & Close
+        </button>
       </div>
     </div>
   </div>
